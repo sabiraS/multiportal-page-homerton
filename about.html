@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipage-portal Homerton</title>
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img style="height:2cm;width:8cm;" src="images/logoo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+    <!-- ------about us content-------- -->
+     <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+            <h1>We Are The World's Largest University </h1>
+            <p>Welcome to Homerton College, where we proudly stand as the world's largest university. 
+                Our expansive global presence and diverse community of students and alumni from every corner of the globe make us a unique and dynamic institution. 
+                We offer a comprehensive range of innovative programs and resources designed to empower our students to achieve their academic and professional goals.
+                 Join us at Homerton College and become part of a global network committed to excellence in education.</p>
+                 <a href="" class="hero-btn1">EXPLORE NOW</a>
+
+      </div>
+        <div class="about-col">
+            <img src="images/aboutus.webp">
+        </div>
+        </div>
+
+     </section>
+<!-- footer-->
+ <section class="footer">
+    <h4>ABOUT US</h4>
+    <P>Homerton College, part of the University of Cambridge, prides itself on fostering a welcoming and inclusive community that supports academic excellence and personal growth.<BR>
+         With a rich history and a modern outlook, the college offers top-notch facilities, including a well-stocked library, extensive sports amenities, and beautiful gardens.
+         <br> Homerton is dedicated to providing a vibrant and stimulating environment where students can thrive both academically and socially, with a focus on holistic development and a strong sense of belonging.</P>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-youtube-play"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-whatsapp"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-envelope"></i>
+    <p> 2024 MULTIPAGE PORTAL WEBSITE, All rights reserved<i class="fa fa-copyright"></i><br>Created and maintained by Sabira Syed!</p>
+
+</div>
+ </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
